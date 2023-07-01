@@ -1,0 +1,49 @@
+.info {
+    height: 80px;
+  }
+  .info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: inherit;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .check-box-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .check-box-size {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+  }
+  .col-margin {
+    margin-right: -3%;
+  }
+  
+  .loginBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .profilePic {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    max-height: 450px;
+    /* padding: 10px; */
+  }
+  /* @media (max-width: 768px) {
+    .profileContainer {
+      flex-direction: column-reverse;
+    }
+  } */
+  
